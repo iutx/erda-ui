@@ -53,7 +53,7 @@ stages:
             node_version: 14
           resources:
             cpu: 2
-            mem: 6144
+            mem: 2048
           caches:
             - key: '{{basePath}}/build-cache-community/{{endPath}}'
               path: ${{ dirs.erda-ui }}/node_modules
